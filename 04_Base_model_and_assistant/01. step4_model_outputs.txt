@@ -1,0 +1,210 @@
+Step 4 — SmolLM2 base and assistant
+Source: https://stanley-00-slm-testing.hf.space/
+Use GPU was unchecked. All recorded generations reported CPU.
+Chat system prompt: You are a helpful assistant.
+
+HuggingFaceTB/SmolLM2-135M | Base / Completion | Run 1
+Prompt: What is 2+2?
+Speed: 44.09 tokens/sec (CPU)
+What is 2+2?
+
+To add a two-digit number, just take the digits of your total and put them next to each other. The result will be a three digit number which can then be added together as normal.
+
+5 + 7 = 12
+
+How do you find the difference between two numbers with different signs (positive or negative) in a math problem?
+
+The simplest way to solve this is by using the formula: (difference / sum). For example, if you have the numbers -380 and 649, what would be the difference between these two numbers? To get the answer we need to know that (-380 – 649), it's equal to 12!
+
+How do I convert 2 + 2 into a decimal?
+
+Use the calculator below to perform the conversion. You'll enter the number "2" for both sides. This should give you an answer of 5.
+
+HuggingFaceTB/SmolLM2-135M | Base / Completion | Run 2
+Prompt: What is 2+2?
+Speed: 42.59 tokens/sec (CPU)
+What is 2+2? 1. A = a + b, and 2a = a – b. 2. A/b = (3/4) × (5/8).
+
+The number that makes both equations equal has to be the same in each case.
+
+We can write this as:
+
+2(a + b) = 2(a - b), or 6ab = 0.
+
+Therefore, a = 6 and b = 0.
+
+Example 9.
+
+3x-2y=7.
+
+Solution:
+
+Given: x-y = 7.
+
+Let A = 3 and B = 0.
+
+So A = 3 and B = 0.
+
+Now, we need to find the value of A so that the equation becomes true.
+
+To do this, let us rearrange our previous problem.
+
+Adding 2 times 3 to both sides gives us:
+
+3(A + B) = 0 + 2AB
+
+⇒ 3AB = 0 + 2AB
+
+⇒ AB = 0
+
+Hence, A = 0 and B = 0.
+
+HuggingFaceTB/SmolLM2-135M | Base / Completion | Run 3
+Prompt: What is 2+2?
+Speed: 40.20 tokens/sec (CPU)
+What is 2+2?
+
+The answer to this question depends on the context. The two numbers are always positive and can be added or subtracted. If one of them has a negative sign, then it cannot be added or subtracted from the other number. This means that when adding or subtracting these two numbers, only the value remains unchanged (and neither changes nor gets larger).
+
+2+5 = 7 + 3=10 This would mean that both 2 and 5 are equal in their total amount. However, if we want to find out which one is greater than 5, we need to figure out its opposite. That's where the inverse operation comes into play! Let's use the square root function: To find the square root of a number like 2, simply take its square, add 1, then divide by 2. So if you wanted to know how many times 2 goes up each time, you'd just multiply 2 by itself twice. For example, since our target number was 6, we get 4 by multiplying 2 x 2 x 2 x 2 = 8. Thus, 2 is actually greater than 5 because 2 multiplied by itself three times gives us eight as a
+
+HuggingFaceTB/SmolLM2-135M | Base / Completion | Run 1
+Prompt: Here is my top 10 list of landmarks to see in Paris:
+Speed: 46.27 tokens/sec (CPU)
+Here is my top 10 list of landmarks to see in Paris:
+
+Avenue du Temple de Fondation Généralis (the street dedicated to the Fondation) is a historic boulevard that connects the city center with the Louvre Museum and the Tuileries Palace. It was first built between 1748 and 1923 as the second-largest boulevard in Europe, after the Mihali Boulevard in Paris. It runs along the Avenue des Invalides and is divided into three parts by its principal streets: Saint-Denis, Saint-Jean-de-Côte d’Or, and Saint-Germain-en-Laye. The former part was once called the Boulevard des Invalides, but it was renamed after the city’s mayor.
+
+The Place de la Concorde is a former royal palace in Paris used for military exercises and gatherings of the French army since 1652. It has been transformed many times over time including by the government of Napoleon Bonaparte. It now houses the National Assembly.
+
+Place du Temple de Fondation Généralis
+
+One of the most famous landmarks in Paris is the Temple de Fondation Généralis. Built on an island in the
+
+HuggingFaceTB/SmolLM2-135M | Base / Completion | Run 2
+Prompt: Here is my top 10 list of landmarks to see in Paris:
+Speed: 46.03 tokens/sec (CPU)
+Here is my top 10 list of landmarks to see in Paris:
+
+Place de la Bastille (the place where the French Revolution took place)
+Place of the Great Seal of France
+Place de l'Etoile
+Place des Invalides (a military hospital, now a museum dedicated to its history and culture)
+Place d'Armes
+Place du Louvre (one of the most famous museums in Europe with over one million visitors every year)
+Place du Rhin
+Place du Faubourg St-Honoré
+Place de l'Etoile
+Place de l'Oeil du Manses (an old palace that still stands today)
+
+And there you have it! There are so many amazing sights worth visiting when traveling through France. By learning about these places, we not only become more aware of our own country but also learn how different cultures come together to create such incredible experiences. So next time you plan your trip, consider exploring some of these fantastic destinations while staying close to home. Happy travels!
+
+HuggingFaceTB/SmolLM2-135M | Base / Completion | Run 3
+Prompt: Here is my top 10 list of landmarks to see in Paris:
+Speed: 47.39 tokens/sec (CPU)
+Here is my top 10 list of landmarks to see in Paris:
+
+ - Le Grand Père Lachaise Cemetery This cemetery was opened on October 23, 1864. It is the oldest cemetery in France and it has been open for over a century. It contains many burial plots dating back to the Roman Empire and also includes the tomb of Napoleon I who ordered the construction of the cemetery. The most popular place in this cemetery is located at Place de la Concorde. This is where you will find the tomb of the first president of France, Napoleon Bonaparte (who died in 1821). Le Petit Marais Also known as the Le Grand Marais or the Grand Marais, it's one of the most famous cemeteries in Paris. The cemetery covers an area of about 5 acres which houses hundreds of graves that are covered by statues depicting all the gods and goddesses of France. It was built during the reign of Charles X and it is believed that the tomb of the Emperor Napoleon III is inside the cemetery. La Villette This cemetery is situated in the heart of Paris. It covers an area of around 9 acres with a total of approximately 7,000 graves including those of the presidents of France. One of the best places to
+
+HuggingFaceTB/SmolLM2-135M-Instruct | Instruct / Chat | Run 1
+Prompt: What is 2+2?
+Speed: 43.43 tokens/sec (CPU)
+Two and two is equal to four. In mathematics, the symbol for "two" is usually written as "2". So, 2 + 2 equals 4.
+
+HuggingFaceTB/SmolLM2-135M-Instruct | Instruct / Chat | Run 2
+Prompt: What is 2+2?
+Speed: 51.11 tokens/sec (CPU)
+In arithmetic, addition and subtraction can be combined using the following rules:
+
+Subtraction: The sum of two numbers is equal to their difference.
+
+Example: Subtracting 3 from 7 yields 2.
+
+Addition: The sum of two numbers is equal to their product.
+
+Example: Adding 4 (from 8) gives 5 (because 6 × 4 = 24).
+
+Multiplication: The product of two numbers is equal to the number itself.
+
+Example: Multiplying 3 by 5 results in 15.
+
+These rules help you perform simple mathematical operations like addition and multiplication with ease. However, if you need more complex or advanced calculations involving fractions, decimals, or even powers of integers, it's always best to consult a calculator or use a specialized software for your specific needs.
+
+HuggingFaceTB/SmolLM2-135M-Instruct | Instruct / Chat | Run 3
+Prompt: What is 2+2?
+Speed: 46.83 tokens/sec (CPU)
+In mathematics, the expression "2 + 2" can be thought of as an arithmetic operation that adds two numbers together and returns their sum as another number. This concept extends beyond simple addition to operations like multiplication or division, but in this specific context, we're looking for the result of two additions.
+
+To simplify this expression, we notice that it's essentially doubling the previous result (which would have been twice), plus one more value than what was originally provided by adding 1. However, since we need two values here, we actually want to return the same value from the original two sums minus one.
+
+So, to find the final answer, we simply add the second value (the new result) to the first value. So, the final answer is 4 - 1 = 3. Therefore, 2+2 equals 3.
+
+HuggingFaceTB/SmolLM2-135M-Instruct | Instruct / Chat | Run 1
+Prompt: Here is my top 10 list of landmarks to see in Paris:
+Speed: 45.56 tokens/sec (CPU)
+Le Jardin des Seine, Le Jardin des Arts, Le Jardin des Seances, Le Jardin des Champs-Élysées, Le Jardin des Musées des Arts et des Beaux-Arts, Le Jardin des Quai Branly...
+
+Le Jardin des Seines (Seating Room)
+Le Jardin des Arts (The Garden of Art)
+Le Jardin des Champs-Élysées (The Champagne Walk)
+Le Jardin des Musées des Arts et des Beaux-Arts (The Musicians and Museums)
+Le Jardin des Quais Branly (The Bamboo Tree)
+Le Jardin des Musée de la Seine (The Waterfront Museum)
+Le Jardin des Muses des Arts (The Muses of the Arts)
+Le Jardin des Champs-Élysées (Parking Lot)
+Le Jardin des Châtelets (Parcels for Parisians)
+Le Jardin des Musées
+
+HuggingFaceTB/SmolLM2-135M-Instruct | Instruct / Chat | Run 2
+Prompt: Here is my top 10 list of landmarks to see in Paris:
+Speed: 49.22 tokens/sec (CPU)
+Paris, the City of Light and Love, has an incredible array of historical sites that will leave you enchanted. Here's your top 10 list of landmarks to see in Paris:
+
+Notre-Dame Cathedral
+Arc de Triomphe
+Eiffel Tower (eleven stories)
+Louvre Museum
+Sainte-Chapelle
+Palace of Versailles
+Arc de Triomphe
+Arc de Triomphe
+Arc de Triomphe
+Arc de Triomphe
+
+Remember to explore these landmarks during peak season or on weekends for the best deals. Enjoy your trip to Paris!
+
+HuggingFaceTB/SmolLM2-135M-Instruct | Instruct / Chat | Run 3
+Prompt: Here is my top 10 list of landmarks to see in Paris:
+Speed: 45.97 tokens/sec (CPU)
+Paris, the City of Light and the Eternal City... Here's your top 10 list with some of the most impressive sights you can see here!
+
+The Eiffel Tower (Eiffelville)
+
+The iconic iron lattice tower at the heart of the city, standing over 342 meters tall, attracting millions of visitors each year.
+The world's largest and most recognizable iron lady, offering breathtaking views of the city from its observation decks.
+
+Notre-Dame Cathedral
+
+A Gothic masterpiece built for the city's cathedral in 12th century, its stunning architecture continuing today as a symbol of French heritage.
+Situated on the Seine River, it offers an immersive experience through its magnificent stained glass windows, ornate carvings, and intricate stonework.
+
+Arc de Triomphe
+
+Designed by Gustave Eiffel, this monumental arch honors the soldiers who fought in World War I. It serves as a symbol of French pride and history.
+Standing 68 meters high, the iconic arch features four bronze statues of soldiers and a beautiful landscape surrounding it.
+
+Louvre Museum
+
+Home to thousands of art pieces created between 1793
+
+
+
+Summary and conclusion
+
+I tested both SmolLM2 models on two prompts, with three runs per prompt for each model (12 runs total). I used Completion mode for the base model and Chat mode for the instruction-tuned model.
+
+For "What is 2+2?", the base model continued with more math text and gave no direct, correct answer in the three runs. The instruction-tuned model gave the correct answer (4) once, gave irrelevant arithmetic rules once, and answered 3 once.
+
+For the Paris prompt, the base model continued the text and produced a list in one run. The instruction-tuned model often framed its replies as travel recommendations, but it still repeated landmarks. One reply listed the Arc de Triomphe five times.
+
+In these runs, the instruction-tuned model sometimes responded more directly, but an answer that sounds helpful can still contain errors. The test compared the models in different prompt modes, so it shows how the two setups behaved in practice. With only three runs per prompt, it does not establish which model is generally more accurate.

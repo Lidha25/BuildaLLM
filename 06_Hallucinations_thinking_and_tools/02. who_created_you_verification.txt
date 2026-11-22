@@ -1,0 +1,24 @@
+Build-A-LLM Assignment
+Section 6 - Model Creator Verification
+Date tested: 22 November 2026
+Assistant tested: OpenAI Codex in ChatGPT Work
+
+Question
+Who created you?
+
+Assistant's exact answer
+I was created by OpenAI.
+
+Documentation check
+OpenAI's official Codex launch page, "Introducing Codex" (16 May 2025),
+documents OpenAI's introduction of Codex. OpenAI's developer documentation
+also provides official guides for Codex.
+
+Sources
+Introducing Codex: https://openai.com/index/introducing-codex/
+Codex developer documentation: https://developers.openai.com/learn/codex
+
+Result
+The answer matches the documentation. OpenAI created Codex. This check
+verifies the creator of the assistant. The exact model variant used in
+this session was unconfirmed.

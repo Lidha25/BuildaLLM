@@ -1,0 +1,56 @@
+Test 5 — Hallucinations: Five factual questions
+
+Source article: “Year zero,” Wikipedia, supplied as Pasted text(1).txt.
+Article link: https://en.wikipedia.org/wiki/Year_zero
+
+Method
+I asked ChatGPT the same five questions in two chats, first without attaching the article and then with it attached. I checked the main claims against the attached article. The first answer cited external sources, including the same Wikipedia article. This therefore tests the effect of attaching the article under these conditions.
+
+1. In which calendar systems does a year zero exist?
+
+Without attachment: Year zero exists in astronomical year numbering, in ISO 8601 date notation as 0000, and in many Hindu and Buddhist calendar eras. In astronomical numbering and ISO 8601, year zero corresponds to 1 BC.
+
+With attachment: Year zero exists in astronomical year numbering, in the ISO 8601 date system (written 0000), and in most Hindu and Buddhist calendar eras. In astronomical numbering, year 0 corresponds to 1 BC.
+
+Comparison: Both identified the same systems. “Most” in the second answer matches the article more closely.
+
+2. Who introduced the Anno Domini (AD) era, and in what year?
+
+Without attachment: Dionysius Exiguus introduced the Anno Domini era in AD 525 when he compiled his Easter table. The first year covered by that table was AD 532.
+
+With attachment: The monk Dionysius Exiguus introduced the Anno Domini era around AD 525.
+
+Comparison: Both got the name and year right. The first answer included an extra detail about the first year covered by the table, which the question did not ask for and the attached article does not explicitly confirm.
+
+3. Why did historians originally not include a year zero in the AD/BC system?
+
+Without attachment: The system counted years starting at one. AD 1 was the first year of the new era, and 1 BC was the first year before it. The Roman numeral system used at the time had no numeral for zero, so the historical sequence goes directly from 1 BC to AD 1.
+
+With attachment: Zero was unfamiliar in sixth-century European reckoning, and the era began with AD 1. When historians later counted backward, they placed 1 BC immediately before AD 1.
+
+Comparison: Both capture the main idea. The first answer is more specific about Roman numerals, which the article discusses.
+
+4. Which French astronomer is traditionally credited with inventing year zero in 1740?
+
+Without attachment: Jacques Cassini, also known as Cassini II, is traditionally credited with introducing year zero in astronomical dating in 1740.
+
+With attachment: French astronomer Jacques Cassini (Cassini II) is traditionally credited with introducing year zero in his astronomical tables in 1740.
+
+Comparison: Both match the article.
+
+5. How many years are there between 1 January 500 BC and 1 January AD 500 according to historians?
+
+Without attachment: 999 years elapsed. It is 500 years from 1 January 500 BC to 1 January AD 1, then 499 more years to 1 January AD 500.
+
+With attachment: 999 years elapsed. From 1 January 500 BC to 1 January AD 1 is 500 years, and from 1 January AD 1 to 1 January AD 500 is 499 years.
+
+Comparison: Both match the article and give the same calculation.
+
+References cited in the answer without the attachment
+https://en.wikipedia.org/wiki/Year_zero
+https://en.wikipedia.org/wiki/Dionysius_Exiguus%27_Easter_table
+https://www.oecd.org/content/dam/oecd/en/publications/reports/2006/09/the-world-economy_g1gh69e4/9789264022621-en.pdf
+https://aa.usno.navy.mil/downloads/c15_usb_online.pdf
+
+Conclusion
+Both responses got the main points right on all five questions. The attachment made the wording more precise on the question about calendar systems, while the answer without the attachment was more specific about Roman numerals in Question 3. I found no clear hallucination in either set of answers when checking the main claims against the article. Since the first response also cited the same article, this test cannot show whether the attachment would improve accuracy compared with answering without access to sources.

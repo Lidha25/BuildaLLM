@@ -1,0 +1,54 @@
+System
+▼
+Model
+HuggingFaceTB/SmolLM2-135M
+Search HuggingFace
+Load Model
+Clear Cache
+Mode
+Completion
+Use GPU
+
+Parameters
+▼
+Prompt
+Why is the sky blue?
+Generate
+Speed: 44.66 tokens/sec (CPU)
+
+Why is the sky blue?
+
+When you look up at the sky, the light from stars travels through space until it hits Earth. In the center of the Earth (at the north and south poles), sunlight meets a layer of air that reflects most of the visible light back to our eyes. The air in between us and the sun acts as a sort of second atmosphere or “bubble.” When this bubble reaches our planet’s surface, it blocks some of the rays from hitting our atmosphere, which causes the color we see on Earth. This phenomenon has been known for centuries; it was named after the Greek god of the sky, Zeus, who had his own version of this phenomenon.
+
+System
+▼
+Model
+HuggingFaceTB/SmolLM2-135M
+Search HuggingFace
+Load Model
+Clear Cache
+Mode
+Completion
+Use GPU
+
+Parameters
+▼
+Prompt
+Human: What is the capital of Denmark?
+Assistant: Copenhagen.
+Human: How many days are in a week?
+Assistant: Seven.
+Human: Why is the sky blue?
+Assistant:
+Generate
+Speed: 45.65 tokens/sec (CPU)
+
+Human: What is the capital of Denmark? Assistant: Copenhagen. Human: How many days are in a week? Assistant: Seven. Human: Why is the sky blue? Assistant: Because it reflects sunlight, which has been absorbed by molecules in the atmosphere and scattered by air particles. Blue light scatters more than other colors due to its shorter wavelength, resulting in a higher amount of blue light being emitted into space.
+
+Comparison of the two outputs
+
+Both prompts used the same SmolLM2-135M base model in Completion mode on CPU. The plain question did produce a direct answer, but it gave an incorrect explanation involving a reflective layer of air, an atmospheric "bubble," and Zeus.
+
+The dialogue prompt led the model to continue the pattern by writing an answer after "Assistant:". This answer was closer to the correct explanation because it linked the sky's color to the stronger scattering of shorter-wavelength blue light. It still confused scattering with absorption, reflection and emission. The blue light we see is sunlight scattered by air molecules into our line of sight.
+
+In these two runs, the dialogue gave the model a clear format to imitate and produced a more accurate explanation. One run per prompt is too little to conclude that the dialogue format consistently improves accuracy.

@@ -1,0 +1,34 @@
+Step 6 — Retailer profit comparison
+Model: GPT-6.2 Sol
+
+Question
+A retailer buys 1,247 units at €38.75 each. It sells 83% of them, rounded down to whole units, at €64.90 each with a 12% discount. Customers return 7% of the sold units, rounded down, for full refunds; those units cannot be resold. Unsold units sell for €21.40 each. Shipping costs €2.85 per unit originally bought, and fixed costs are €6,730. What is the final profit? Round only the final amount to two decimals.
+
+Light — Give only the final answer
+€930.46
+
+Light — Show the calculation before answering
+1. Units initially sold = ⌊1,247 × 83%⌋ = 1,035.
+2. Units returned = ⌊1,035 × 7%⌋ = 72, leaving 963 sales after refunds.
+3. Net revenue from discounted sales = 963 × €64.90 × 88% = €54,998.856.
+4. Revenue from unsold units = (1,247 − 1,035) × €21.40 = €4,536.80.
+5. Total costs = 1,247 × (€38.75 + €2.85) + €6,730 = €58,605.20.
+Final profit = €54,998.856 + €4,536.80 − €58,605.20 = €930.456, which rounds to €930.46.
+
+Extra High — Give only the final answer
+€930.46
+
+Extra High — Show the calculation before answering
+1. Units sold and returned. 1,247 × 83% = 1,035.01, rounded down to 1,035 units sold. 1,035 × 7% = 72.45, rounded down to 72 returns. That leaves 963 sales after refunds and 212 originally unsold units.
+2. Revenue after refunds. The discounted price is €64.90 × 0.88 = €57.112. Total revenue is (963 × €57.112) + (212 × €21.40) = €59,535.656.
+3. Total costs. (1,247 × €38.75) + (1,247 × €2.85) + €6,730 = €58,605.20.
+4. Profit before rounding. €59,535.656 − €58,605.20 = €930.456.
+Final profit: €930.46.
+
+Independent arithmetic check
+Using integer arithmetic for the monetary amounts (in ten-thousandths of a euro), discounted sales after refunds total 549988560, clearance sales total 45368000, and costs total 586052000. The difference is 9304560, or €930.456 before rounding.
+
+Comparison
+All four responses gave the correct final profit of €930.46. Light showed the two revenue amounts separately. Extra High showed the exact discounted unit price and the fractional unit counts before rounding down. Both calculations were correct. Showing the work made it easier to check the refunds, unsold stock and rounding.
+
+The comparison used two reasoning settings of GPT-6.2 Sol. The provided results show the calculation requests as follow-ups to the final-answer requests, so the two responses at each setting should not be treated as independent trials. This one problem showed no difference in final-answer accuracy.

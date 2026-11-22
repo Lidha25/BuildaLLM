@@ -1,0 +1,42 @@
+SLM Model Evaluation Hub
+
+System
+▼
+Model
+HuggingFaceTB/SmolLM2-135M
+Search HuggingFace
+Load Model
+Clear Cache
+Mode
+Completion
+Use GPU
+
+Parameters
+▼
+Prompt
+The 2020 Nobel Prize in Economic Sciences was awarded to
+Generate
+Speed: 48.91 tokens/sec (CPU)
+
+The 2020 Nobel Prize in Economic Sciences was awarded to a Chinese scientist for his work on the origins of solar flares and coronal mass ejections.
+
+Prompt
+The 2026 Nobel Prize in Economic Sciences was awarded to
+Generate
+Speed: 43.04 tokens/sec (CPU)
+
+The 2026 Nobel Prize in Economic Sciences was awarded to Dr. David Satterthwaite, who won the 2019 Nobel Prize for his work on microeconomics and economics of innovation. Satterthwaite has published over 50 papers, co-authored several dozen articles, and served as a recipient of three prizes: the 2018 Nobel Prize in Economics, the 2014 Nobel Prize in Economics, and the 2013 Nobel Prize in Economics.
+
+Dr. Satterthwaite's work focuses on understanding the factors that drive innovation in various industries, from small businesses to large corporations. He is also known for his research on microeconomic systems and he has written extensively on the role of entrepreneurship and innovation in modern economies.
+
+Fact-check of the two completions
+
+2020 — Incorrect. Paul R. Milgrom and Robert B. Wilson won for improving auction theory and developing new auction formats. The model's explanation about solar flares and coronal mass ejections is unrelated to the prize.
+Source: https://www.nobelprize.org/uploads/2020/09/press-economicsciences2020.pdf
+
+2026 — Incorrect. Robert E. Hall and Michael Woodford won for work on the microeconomic foundations of macroeconomic stabilisation. David Satterthwaite is not listed as a laureate in 2026 or in the other years the model claimed (2019, 2018, 2014 and 2013).
+Sources:
+https://www.kva.se/en/news/the-prize-in-economic-sciences-2026/
+https://www.kva.se/en/prizes/prize-in-economic-sciences/laureates/
+
+Observation: The base model gave plausible-sounding details for both years, but both completions were wrong. Since it also missed the older award, this test illustrates hallucination and does not establish the model's exact knowledge cutoff.
